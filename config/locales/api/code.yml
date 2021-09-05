@@ -1,0 +1,29 @@
+api:
+  api:
+    errors:
+      resources:
+        user: User
+      code: # Validation code 100 -> 999
+        default: 100
+        confirmation: 101
+        accepted: 102
+        blank: 103
+        present: 104
+        too_short: 105
+        too_long: 106
+        wrong_length: 107
+        taken: 108
+        invalid: 109
+        inclusion: 110
+        exclusion: 111
+        required: 112
+        not_a_number: 113
+        greater_than: 114
+        greater_than_or_equal_to: 115
+        equal_to: 116
+        less_than: 117
+        less_than_or_equal_to: 118
+        other_than: 119
+        not_an_integer: 120
+        odd: 121
+        even: 122
