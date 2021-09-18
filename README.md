@@ -1,5 +1,9 @@
 # Rails handle exception
 
+Refer:
+- https://viblo.asia/p/error-handling-in-rails-api-the-rails-way-RQqKLvRrl7z
+- https://blog.rebased.pl/2016/11/07/api-error-handling.html
+
 ## Success response with data and meta
 ```json
 {
