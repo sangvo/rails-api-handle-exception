@@ -1,3 +1,3 @@
-class ApplicationService
+class BaseService
   include Serializeable
 end
