@@ -16,6 +16,7 @@ class ValidationErrorSerializer
   end
 
   private
+  
   def resource
     I18n.t underscored_resource_name, locale: :api, scope: [:api, :errors, :resources],
       default: underscored_resource_name
